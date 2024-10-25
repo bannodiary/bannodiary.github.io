@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1729835388,
+	"version": 1729837255,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -15,8 +15,12 @@
 		"images/sprite5-sheet0.png",
 		"images/sprite5-sheet1.png",
 		"images/touch_area-sheet0.png",
-		"media/jump.m4a",
-		"media/jump.ogg",
+		"media/water_sfx-new.m4a",
+		"media/water_sfx-new.ogg",
+		"media/switch.m4a",
+		"media/switch.ogg",
+		"media/tap.m4a",
+		"media/tap.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
