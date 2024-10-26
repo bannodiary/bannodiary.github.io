@@ -26603,10 +26603,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
 	cr.plugins_.Audio,
 	cr.plugins_.LocalStorage,
-	cr.plugins_.Rex_CSV,
 	cr.plugins_.Sprite,
-	cr.plugins_.Rex_Date,
+	cr.plugins_.Rex_CSV,
 	cr.plugins_.Touch,
+	cr.plugins_.Rex_Date,
 	cr.behaviors.Platform,
 	cr.behaviors.Fade,
 	cr.behaviors.Physics,
@@ -26665,6 +26665,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX.prototype.cnds.OnError,
 	cr.plugins_.Sprite.prototype.cnds.IsOnScreen,
 	cr.plugins_.Sprite.prototype.cnds.IsOutsideLayout,
+	cr.system_object.prototype.cnds.CompareTime,
 	cr.behaviors.solid.prototype.acts.SetEnabled,
 	cr.plugins_.Sprite.prototype.acts.SetVisible
 ];};
