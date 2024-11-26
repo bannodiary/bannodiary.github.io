@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1732588168,
+	"version": 1732590526,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -18,6 +18,11 @@
 		"images/sprite7-sheet0.png",
 		"images/sprite9-sheet0.png",
 		"images/sprite10-sheet0.png",
+		"images/spritefont2.png",
+		"images/spritefont3.png",
+		"images/spritefontblue.png",
+		"images/spritefontgreen.png",
+		"images/spritefontyellow.png",
 		"media/water_sfx-new.m4a",
 		"media/water_sfx-new.ogg",
 		"media/switch.m4a",
