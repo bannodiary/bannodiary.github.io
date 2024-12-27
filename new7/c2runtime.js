@@ -20781,7 +20781,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Fade.prototype.acts.SetWaitTime,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
-	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.exps.round,
 	cr.system_object.prototype.exps.random,
 	cr.plugins_.Keyboard.prototype.cnds.OnKeyReleased
