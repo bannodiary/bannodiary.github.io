@@ -24653,14 +24653,14 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.AJAX,
-	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
-	cr.plugins_.Touch,
+	cr.plugins_.Keyboard,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.plugins_.SpriteFontPlus,
 	cr.plugins_.TextBox,
-	cr.plugins_.TiledBg,
+	cr.plugins_.AJAX,
 	cr.behaviors.Platform,
 	cr.behaviors.Bullet,
 	cr.behaviors.Sin,
