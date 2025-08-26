@@ -26667,14 +26667,14 @@ cr.behaviors.wrap = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
 	cr.plugins_.Browser,
-	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Touch,
+	cr.plugins_.Mouse,
 	cr.plugins_.TiledBg,
-	cr.plugins_.TextBox,
+	cr.plugins_.Touch,
 	cr.plugins_.SpriteFontPlus,
-	cr.plugins_.Text,
 	cr.plugins_.Sprite,
+	cr.plugins_.TextBox,
+	cr.plugins_.Text,
 	cr.behaviors.Platform,
 	cr.behaviors.Bullet,
 	cr.behaviors.Sin,
@@ -26748,6 +26748,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetLayerOpacity,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Mouse.prototype.acts.SetCursor,
-	cr.plugins_.TextBox.prototype.exps.Text
+	cr.plugins_.Sprite.prototype.cnds.CompareOpacity,
+	cr.plugins_.TextBox.prototype.exps.Text,
+	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.plugins_.Mouse.prototype.cnds.OnClick
 ];};
 
