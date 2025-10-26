@@ -19774,9 +19774,9 @@ cr.behaviors.Sin = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
-	cr.plugins_.TextBox,
-	cr.plugins_.Sprite,
 	cr.plugins_.SpriteFontPlus,
+	cr.plugins_.Sprite,
+	cr.plugins_.TextBox,
 	cr.plugins_.Touch,
 	cr.behaviors.Fade,
 	cr.behaviors.Sin,
