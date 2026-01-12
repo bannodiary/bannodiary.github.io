@@ -20053,10 +20053,10 @@ cr.behaviors.Sin = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
 	cr.plugins_.Mouse,
-	cr.plugins_.SpriteFontPlus,
 	cr.plugins_.Sprite,
-	cr.plugins_.TextBox,
+	cr.plugins_.SpriteFontPlus,
 	cr.plugins_.Touch,
+	cr.plugins_.TextBox,
 	cr.behaviors.Fade,
 	cr.behaviors.Sin,
 	cr.behaviors.Anchor,
